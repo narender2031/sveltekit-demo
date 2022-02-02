@@ -7,7 +7,7 @@
     if (process.env.NODE_ENV === 'production') {
         // For production
         console.log(process.env, "---->>>>>>");
-        myApiKey = process.env.MY_API_KEY;
+        myApiKey = process.env.VITE_MY_API_KEY;
     } else {
         // For development
         myApiKey = MY_API_KEY;
