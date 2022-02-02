@@ -12,8 +12,8 @@
         myApiKey = MY_API_KEY;
     }
 
-    console.log(myApiKey);
+    console.log(myApiKey, "---->>>>>>");
 </script>
 
 <h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation {myApiKey}</p>
