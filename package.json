@@ -2,8 +2,8 @@
   "name": "demo-sveltekit",
   "version": "0.0.1",
   "scripts": {
-    "dev": "env-cmd svelte-kit dev",
-    "build": "env-cmd svelte-kit build",
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
@@ -31,6 +31,6 @@
   "type": "module",
   "dependencies": {
     "@sveltejs/adapter-node": "^1.0.0-next.67",
-    "env-cmd": "^10.1.0"
+    "dotenv": "^15.0.0"
   }
 }
